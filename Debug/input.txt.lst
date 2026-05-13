@@ -1,0 +1,623 @@
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    12/12/25 17:10:03
+input.txt.asm						     Page 1 - 1
+
+
+				; ==========================================
+				; Generated ASM code from TEA-2025 program
+				; ==========================================
+
+				.586P
+				.model flat, stdcall
+				includelib libcmt.lib
+				includelib libvcruntime.lib
+				includelib libucrt.lib
+				includelib legacy_stdio_definitions.lib
+				includelib kernel32.lib
+				includelib D:/3s/b/BVS-2024/Debug/BVS-2024Lib.lib
+				ExitProcess PROTO : DWORD
+
+				SetConsoleCP PROTO : DWORD
+
+				SetConsoleOutputCP PROTO : DWORD
+
+				power_of PROTO : DWORD, : DWORD 
+
+				to_str PROTO : DWORD 
+
+				prints PROTO : DWORD 
+
+				printi PROTO : DWORD 
+
+				.stack 4096
+
+ 00000000			.const
+ 00000000 00000001		LIT1 DWORD 1 ; int
+ 00000004 00000002		LIT2 DWORD 2 ; int
+ 00000008 00000001		LIT3 DWORD 1 ; int
+ 0000000C 00000041		LIT4 DWORD 65 ; char
+ 00000010 00000002		LIT5 DWORD 2 ; int
+ 00000014 00000005		LIT6 DWORD 5 ; int
+ 00000018 68 69 00		LIT7 DB "hi", 0 ; text
+ 0000001B 68 69 31 00		LIT8 DB "hi1", 0 ; text
+ 0000001F 00000001		LIT9 DWORD 1 ; boolean
+ 00000023 00000003		LIT10 DWORD 3 ; int
+ 00000027 00000002		LIT11 DWORD 2 ; int
+ 0000002B 54 45 41 2D 32	LIT12 DB "TEA-2025 Demo", 0 ; text
+	   30 32 35 20 44
+	   65 6D 6F 00
+ 00000039 20 00			LIT13 DB " ", 0 ; text
+ 0000003B 53 71 75 61 72	LIT14 DB "Square: ", 0 ; text
+	   65 3A 20 00
+ 00000044 50 6F 77 65 72	LIT15 DB "Power: ", 0 ; text
+	   3A 20 00
+ 0000004C 53 79 6D 62 6F	LIT16 DB "Symbol: ", 0 ; text
+	   6C 3A 20 00
+ 00000055 53 75 6D 20 72	LIT17 DB "Sum result: ", 0 ; text
+	   65 73 75 6C 74
+	   3A 20 00
+ 00000062 0000000A		LIT18 DWORD 10 ; int
+ 00000066 00000005		LIT19 DWORD 5 ; int
+ 0000006A 66 61 63 74 20	LIT20 DB "fact result", 0 ; text
+	   72 65 73 75 6C
+	   74 00
+ 00000076 00000003		LIT21 DWORD 3 ; int
+ 0000007A 00000002		LIT22 DWORD 2 ; int
+ 0000007E 00000006		LIT23 DWORD 6 ; int
+ 00000082 00000002		LIT24 DWORD 2 ; int
+ 00000086 00000008		LIT25 DWORD 8 ; int
+ 0000008A 00000006		LIT26 DWORD 6 ; int
+ 0000008E 00000002		LIT27 DWORD 2 ; int
+ 00000092 00000001		LIT28 DWORD 1 ; int
+ 00000096 00000002		LIT29 DWORD 2 ; int
+ 0000009A 0000000A		LIT30 DWORD 10 ; int
+ 0000009E 00000005		LIT31 DWORD 5 ; int
+ 000000A2 00000001		LIT32 DWORD 1 ; boolean
+ 000000A6 00000000		LIT33 DWORD 0 ; boolean
+ 000000AA 42 6F 6F 6C 65	LIT34 DB "Boolean inversion:", 0 ; text
+	   61 6E 20 69 6E
+	   76 65 72 73 69
+	   6F 6E 3A 00
+ 000000BD 74 20 3D 20 00	LIT35 DB "t = ", 0 ; text
+ 000000C2 21 74 20 3D 20	LIT36 DB "!t = ", 0 ; text
+	   00
+ 000000C8 66 20 3D 20 00	LIT37 DB "f = ", 0 ; text
+ 000000CD 21 66 20 3D 20	LIT38 DB "!f = ", 0 ; text
+	   00
+
+ 00000000			.data
+ 00000000 00000000		sum$tmp DWORD 0 ; int
+ 00000004 00000000		fact$acc DWORD 0 ; int
+ 00000008 00000000		main$counter DWORD 0 ; int
+ 0000000C 00000000		main$result DWORD 0 ; int
+ 00000010 00000000		main$symbol DWORD 0 ; char
+ 00000014 00000000		main$base DWORD 0 ; int
+ 00000018 00000000		main$power DWORD 0 ; int
+ 0000001C 00000000		main$st DWORD 0 ; string
+ 00000020 00000000		main$st2 DWORD 0 ; string
+ 00000024 00000000		main$bl DWORD 0 ; boolean
+ 00000028 00000000		main$rSum DWORD 0 ; int
+ 0000002C 00000000		fact$resfact DWORD 0 ; int
+ 00000030 00000000		fact$cyc DWORD 0 ; int
+ 00000034 00000000		fact$col DWORD 0 ; int
+ 00000038 00000000		fact$b_res DWORD 0 ; boolean
+ 0000003C 00000000		fact$count DWORD 0 ; int
+ 00000040 00000000		fact$x DWORD 0 ; int
+ 00000044 00000000		fact$y DWORD 0 ; int
+ 00000048 00000000		fact$z DWORD 0 ; int
+ 0000004C 00000000		fact$t DWORD 0 ; boolean
+ 00000050 00000000		fact$f DWORD 0 ; boolean
+ 00000054 00000000		fact$nt DWORD 0 ; boolean
+ 00000058 00000000		fact$nf DWORD 0 ; boolean
+ 0000005C 00000000		fact$r DWORD 0 ; boolean
+ 00000060 00000000		fact$rr DWORD 0 ; boolean
+
+ 00000000			.code
+
+ 00000000			Fsum PROC uses ebx ecx edi esi, sum$x : DWORD, sum$y : DWORD
+
+				; Operation: sum$x + sum$y
+ 00000000  55		   *	    push   ebp
+ 00000001  8B EC	   *	    mov    ebp, esp
+ 00000003  53		   *	    push   ebx
+ 00000004  51		   *	    push   ecx
+ 00000005  57		   *	    push   edi
+ 00000006  56		   *	    push   esi
+ 00000007  8B 45 08		mov eax, sum$x
+ 0000000A  03 45 0C		add eax, sum$y
+
+				; Assignment: sum$tmp = eax
+ 0000000D  A3 00000000 R	mov sum$tmp, eax
+				ret
+ 00000012  5E		   *	    pop    esi
+ 00000013  5F		   *	    pop    edi
+ 00000014  59		   *	    pop    ecx
+ 00000015  5B		   *	    pop    ebx
+ 00000016  C9		   *	    leave  
+ 00000017  C2 0008	   *	    ret    00008h
+ 0000001A			Fsum ENDP
+
+
+ 0000001A			Ffact PROC uses ebx ecx edi esi, fact$n : DWORD
+
+				; Assignment: fact$acc = LIT1
+ 0000001A  55		   *	    push   ebp
+ 0000001B  8B EC	   *	    mov    ebp, esp
+ 0000001D  53		   *	    push   ebx
+ 0000001E  51		   *	    push   ecx
+ 0000001F  57		   *	    push   edi
+ 00000020  56		   *	    push   esi
+ 00000021  A1 00000000 R	mov eax, LIT1
+ 00000026  A3 00000004 R	mov fact$acc, eax
+
+ 0000002B  8B 4D 08		mov ecx, fact$n
+ 0000002E			cycle_label_1:
+ 0000002E  51			push ecx
+
+				; Operation: fact$acc * LIT2
+ 0000002F  A1 00000004 R	mov eax, fact$acc
+ 00000034  0F AF 05		imul eax, LIT2
+	   00000004 R
+
+				; Assignment: fact$acc = eax
+ 0000003B  A3 00000004 R	mov fact$acc, eax
+
+				; Operation: fact$n - LIT3
+ 00000040  8B 45 08		mov eax, fact$n
+ 00000043  2B 05 00000008 R	sub eax, LIT3
+
+				; Assignment: fact$n = eax
+ 00000049  89 45 08		mov fact$n, eax
+ 0000004C  59			pop ecx
+ 0000004D  E2 DF		loop cycle_label_1
+ 0000004F			cycle_label_1_end:
+
+				; Operation: fact$n - LIT3
+ 0000004F  8B 45 08		mov eax, fact$n
+ 00000052  2B 05 00000008 R	sub eax, LIT3
+
+				; Assignment: fact$n = eax
+ 00000058  89 45 08		mov fact$n, eax
+ 0000005B			Ffact ENDP
+
+ 0000005B			main PROC
+				Invoke SetConsoleCP, 1251
+ 0000005B  68 000004E3	   *	    push   +0000004E3h
+ 00000060  E8 00000000 E   *	    call   SetConsoleCP
+				Invoke SetConsoleOutputCP, 1251
+ 00000065  68 000004E3	   *	    push   +0000004E3h
+ 0000006A  E8 00000000 E   *	    call   SetConsoleOutputCP
+
+				; Initialize variable with expression
+ 0000006F  B8 00000041		mov eax, 65
+ 00000074  A3 00000010 R	mov main$symbol, eax
+
+				; Initialize variable with expression
+ 00000079  B8 00000002		mov eax, 2
+ 0000007E  A3 00000014 R	mov main$base, eax
+
+				; Initialize variable with expression
+ 00000083  B8 00000005		mov eax, 5
+ 00000088  A3 00000018 R	mov main$power, eax
+
+				; Initialize variable with expression
+ 0000008D  A3 0000001C R	mov main$st, eax
+
+				; Initialize variable with expression
+ 00000092  A3 00000020 R	mov main$st2, eax
+
+				; Initialize variable with expression
+ 00000097  B8 00000001		mov eax, 1
+ 0000009C  A3 00000024 R	mov main$bl, eax
+
+				; Assignment: main$counter = LIT10
+ 000000A1  A1 00000023 R	mov eax, LIT10
+ 000000A6  A3 00000008 R	mov main$counter, eax
+
+				; Final expression result
+ 000000AB  A1 00000028 R	mov eax, main$rSum
+
+				; Assignment: main$base = LIT11
+ 000000B0  A1 00000027 R	mov eax, LIT11
+ 000000B5  A3 00000014 R	mov main$base, eax
+
+				; Final expression result
+ 000000BA  A1 00000028 R	mov eax, main$rSum
+
+				; Output (cout)
+ 000000BF  68 0000002B R	push offset LIT12
+ 000000C4  E8 00000000 E	call prints
+
+				; Output (cout)
+ 000000C9  68 00000039 R	push offset LIT13
+ 000000CE  E8 00000000 E	call prints
+
+				; Operation: main$base * main$base
+ 000000D3  A1 00000014 R	mov eax, main$base
+ 000000D8  0F AF 05		imul eax, main$base
+	   00000014 R
+
+				; Assignment: main$result = eax
+ 000000DF  A3 0000000C R	mov main$result, eax
+
+				; Output (cout)
+ 000000E4  68 0000003B R	push offset LIT14
+ 000000E9  E8 00000000 E	call prints
+
+				; Output (cout)
+ 000000EE  FF 35 0000000C R	push main$result
+ 000000F4  E8 00000000 E	call to_str
+ 000000F9  50			push eax
+ 000000FA  E8 00000000 E	call prints
+ 000000FF  FF 35 00000018 R	push main$power
+ 00000105  FF 35 00000014 R	push main$base
+ 0000010B  E8 00000000 E	call power_of
+
+				; Assignment: main$result = eax
+ 00000110  A3 0000000C R	mov main$result, eax
+
+				; Output (cout)
+ 00000115  68 00000044 R	push offset LIT15
+ 0000011A  E8 00000000 E	call prints
+
+				; Output (cout)
+ 0000011F  FF 35 0000000C R	push main$result
+ 00000125  E8 00000000 E	call to_str
+ 0000012A  50			push eax
+ 0000012B  E8 00000000 E	call prints
+
+				; Output (cout)
+ 00000130  68 0000004C R	push offset LIT16
+ 00000135  E8 00000000 E	call prints
+
+				; Output (cout)
+ 0000013A  68 00000010 R	push offset main$symbol
+ 0000013F  E8 00000000 E	call prints
+
+				; Output (cout)
+ 00000144  68 00000055 R	push offset LIT17
+ 00000149  E8 00000000 E	call prints
+ 0000014E  FF 35 00000066 R	push LIT19
+ 00000154  FF 35 00000062 R	push LIT18
+ 0000015A  E8 FFFFFEA1		call Fsum
+
+				; Assignment: main$rSum = eax
+ 0000015F  A3 00000028 R	mov main$rSum, eax
+
+				; Output (cout)
+ 00000164  68 0000006A R	push offset LIT20
+ 00000169  E8 00000000 E	call prints
+
+				; Initialize variable with expression
+ 0000016E  FF 35 00000076 R	push LIT21
+ 00000174  E8 FFFFFEA1		call Ffact
+ 00000179  A3 0000002C R	mov fact$resfact, eax
+
+				; Output (cout)
+ 0000017E  FF 35 0000002C R	push fact$resfact
+ 00000184  E8 00000000 E	call printi
+
+				; Initialize variable with expression
+ 00000189  B8 00000002		mov eax, 2
+ 0000018E  A3 00000030 R	mov fact$cyc, eax
+
+				; Initialize variable with expression
+ 00000193  B8 00000006		mov eax, 6
+ 00000198  A3 00000034 R	mov fact$col, eax
+
+ 0000019D  8B 0D 00000034 R	mov ecx, fact$col
+ 000001A3			cycle_label_2:
+ 000001A3  51			push ecx
+
+				; Operation: fact$acc * LIT24
+ 000001A4  A1 00000004 R	mov eax, fact$acc
+ 000001A9  0F AF 05		imul eax, LIT24
+	   00000082 R
+
+				; Operation: LIT25 / LIT26
+ 000001B0  A1 00000086 R	mov eax, LIT25
+ 000001B5  99			cdq
+ 000001B6  F7 3D 0000008A R	idiv LIT26
+
+				; Operation: eax + eax
+ 000001BC  8B C0		mov eax, eax
+ 000001BE  03 C0		add eax, eax
+
+				; Operation: eax - LIT27
+ 000001C0  8B C0		mov eax, eax
+ 000001C2  2B 05 0000008E R	sub eax, LIT27
+
+				; Assignment: fact$acc = eax
+ 000001C8  A3 00000004 R	mov fact$acc, eax
+
+				; Operation: fact$col - LIT28
+ 000001CD  A1 00000034 R	mov eax, fact$col
+ 000001D2  2B 05 00000092 R	sub eax, LIT28
+
+				; Assignment: fact$col = eax
+ 000001D8  A3 00000034 R	mov fact$col, eax
+ 000001DD  59			pop ecx
+ 000001DE  E2 C3		loop cycle_label_2
+ 000001E0			cycle_label_2_end:
+
+				; Assignment: fact$b_res = fact$cyc
+ 000001E0  A1 00000030 R	mov eax, fact$cyc
+ 000001E5  A3 00000038 R	mov fact$b_res, eax
+
+				; Operation: fact$b_res w fact$col
+ 000001EA  A1 00000038 R	mov eax, fact$b_res
+ 000001EF  3B 05 00000034 R	cmp eax, fact$col
+ 000001F5  B9 00000000		mov ecx, 0
+ 000001FA  0F 95 C1		setne cl
+ 000001FD  8B C1		mov eax, ecx
+
+				; Output (cout)
+ 000001FF  FF 35 00000038 R	push fact$b_res
+ 00000205  E8 00000000 E	call printi
+
+				; Initialize variable with expression
+ 0000020A  B8 00000002		mov eax, 2
+ 0000020F  A3 0000003C R	mov fact$count, eax
+
+ 00000214  FF 05 0000003C R	inc fact$count
+
+ 0000021A  FF 0D 0000003C R	dec fact$count
+
+				; Initialize variable with expression
+ 00000220  B8 0000000A		mov eax, 10
+ 00000225  A3 00000044 R	mov fact$y, eax
+
+				; Unary minus (postfix)
+ 0000022A  A1 0000009E R	mov eax, LIT31
+ 0000022F  F7 D8		neg eax
+
+				; Assignment: fact$x = eax
+ 00000231  A3 00000040 R	mov fact$x, eax
+
+				; Final expression result
+ 00000236  A1 00000048 R	mov eax, fact$z
+
+				; Unary minus (postfix)
+ 0000023B  A1 00000044 R	mov eax, fact$y
+ 00000240  F7 D8		neg eax
+
+				; Assignment: fact$z = eax
+ 00000242  A3 00000048 R	mov fact$z, eax
+
+				; Final expression result
+ 00000247  A1 00000048 R	mov eax, fact$z
+
+				; Operation: fact$x + fact$y
+ 0000024C  A1 00000040 R	mov eax, fact$x
+ 00000251  03 05 00000044 R	add eax, fact$y
+
+				; Unary minus (postfix)
+ 00000257  8B C0		mov eax, eax
+ 00000259  F7 D8		neg eax
+
+				; Assignment: fact$z = eax
+ 0000025B  A3 00000048 R	mov fact$z, eax
+
+				; Final expression result
+ 00000260  A1 00000048 R	mov eax, fact$z
+
+				; Output (cout)
+ 00000265  FF 35 00000040 R	push fact$x
+ 0000026B  E8 00000000 E	call printi
+
+				; Output (cout)
+ 00000270  FF 35 00000048 R	push fact$z
+ 00000276  E8 00000000 E	call printi
+
+				; Initialize variable with expression
+ 0000027B  B8 00000001		mov eax, 1
+ 00000280  A3 0000004C R	mov fact$t, eax
+
+				; Initialize variable with expression
+ 00000285  B8 00000000		mov eax, 0
+ 0000028A  A3 00000050 R	mov fact$f, eax
+
+				; Initialize variable with expression
+
+				; Logical NOT (postfix)
+ 0000028F  A1 0000004C R	mov eax, fact$t
+ 00000294  83 F8 00		cmp eax, 0
+ 00000297  0F 94 C0		sete al
+ 0000029A  0F B6 C0		movzx eax, al
+ 0000029D  A3 00000054 R	mov fact$nt, eax
+
+				; Initialize variable with expression
+
+				; Logical NOT (postfix)
+ 000002A2  A1 00000050 R	mov eax, fact$f
+ 000002A7  83 F8 00		cmp eax, 0
+ 000002AA  0F 94 C0		sete al
+ 000002AD  0F B6 C0		movzx eax, al
+ 000002B0  A3 00000058 R	mov fact$nf, eax
+
+				; Output (cout)
+ 000002B5  68 000000AA R	push offset LIT34
+ 000002BA  E8 00000000 E	call prints
+
+				; Output (cout)
+ 000002BF  68 000000BD R	push offset LIT35
+ 000002C4  E8 00000000 E	call prints
+
+				; Output (cout)
+ 000002C9  FF 35 0000004C R	push fact$t
+ 000002CF  E8 00000000 E	call printi
+
+				; Output (cout)
+ 000002D4  68 000000C2 R	push offset LIT36
+ 000002D9  E8 00000000 E	call prints
+
+				; Output (cout)
+ 000002DE  FF 35 00000054 R	push fact$nt
+ 000002E4  E8 00000000 E	call printi
+
+				; Output (cout)
+ 000002E9  68 000000C8 R	push offset LIT37
+ 000002EE  E8 00000000 E	call prints
+
+				; Output (cout)
+ 000002F3  FF 35 00000050 R	push fact$f
+ 000002F9  E8 00000000 E	call printi
+
+				; Output (cout)
+ 000002FE  68 000000CD R	push offset LIT38
+ 00000303  E8 00000000 E	call prints
+
+				; Output (cout)
+ 00000308  FF 35 00000058 R	push fact$nf
+ 0000030E  E8 00000000 E	call printi
+
+				; Operation: fact$x > fact$z
+ 00000313  A1 00000040 R	mov eax, fact$x
+ 00000318  3B 05 00000048 R	cmp eax, fact$z
+ 0000031E  B9 00000000		mov ecx, 0
+ 00000323  0F 9F C1		setg cl
+ 00000326  8B C1		mov eax, ecx
+
+				; Assignment: fact$r = eax
+ 00000328  A3 0000005C R	mov fact$r, eax
+
+				; Final expression result
+ 0000032D  A1 0000005C R	mov eax, fact$r
+
+				; Logical NOT (postfix)
+ 00000332  A1 0000005C R	mov eax, fact$r
+ 00000337  83 F8 00		cmp eax, 0
+ 0000033A  0F 94 C0		sete al
+ 0000033D  0F B6 C0		movzx eax, al
+
+				; Assignment: fact$rr = eax
+ 00000340  A3 00000060 R	mov fact$rr, eax
+
+				; Final expression result
+ 00000345  A1 00000060 R	mov eax, fact$rr
+
+				; Output (cout)
+ 0000034A  FF 35 00000060 R	push fact$rr
+ 00000350  E8 00000000 E	call printi
+ 00000355  6A FF		push -1
+ 00000357  E8 00000000 E	call ExitProcess
+ 0000035C			main ENDP
+				end main
+Microsoft (R) Macro Assembler Version 14.41.34123.0	    12/12/25 17:10:03
+input.txt.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 000000D3 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000064 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000035C Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+Ffact  . . . . . . . . . . . . .	P Near	 0000001A _TEXT	Length= 00000041 Public STDCALL
+  fact$n . . . . . . . . . . . .	DWord	 bp + 00000008
+  cycle_label_1  . . . . . . . .	L Near	 0000002E _TEXT	
+  cycle_label_1_end  . . . . . .	L Near	 0000004F _TEXT	
+Fsum . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000001A Public STDCALL
+  sum$x  . . . . . . . . . . . .	DWord	 bp + 00000008
+  sum$y  . . . . . . . . . . . .	DWord	 bp + 0000000C
+SetConsoleCP . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+SetConsoleOutputCP . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 0000005B _TEXT	Length= 00000301 Public STDCALL
+  cycle_label_2  . . . . . . . .	L Near	 000001A3 _TEXT	
+  cycle_label_2_end  . . . . . .	L Near	 000001E0 _TEXT	
+power_of . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+printi . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+prints . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+to_str . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+LIT10  . . . . . . . . . . . . .	DWord	 00000023 CONST	
+LIT11  . . . . . . . . . . . . .	DWord	 00000027 CONST	
+LIT12  . . . . . . . . . . . . .	Byte	 0000002B CONST	
+LIT13  . . . . . . . . . . . . .	Byte	 00000039 CONST	
+LIT14  . . . . . . . . . . . . .	Byte	 0000003B CONST	
+LIT15  . . . . . . . . . . . . .	Byte	 00000044 CONST	
+LIT16  . . . . . . . . . . . . .	Byte	 0000004C CONST	
+LIT17  . . . . . . . . . . . . .	Byte	 00000055 CONST	
+LIT18  . . . . . . . . . . . . .	DWord	 00000062 CONST	
+LIT19  . . . . . . . . . . . . .	DWord	 00000066 CONST	
+LIT1 . . . . . . . . . . . . . .	DWord	 00000000 CONST	
+LIT20  . . . . . . . . . . . . .	Byte	 0000006A CONST	
+LIT21  . . . . . . . . . . . . .	DWord	 00000076 CONST	
+LIT22  . . . . . . . . . . . . .	DWord	 0000007A CONST	
+LIT23  . . . . . . . . . . . . .	DWord	 0000007E CONST	
+LIT24  . . . . . . . . . . . . .	DWord	 00000082 CONST	
+LIT25  . . . . . . . . . . . . .	DWord	 00000086 CONST	
+LIT26  . . . . . . . . . . . . .	DWord	 0000008A CONST	
+LIT27  . . . . . . . . . . . . .	DWord	 0000008E CONST	
+LIT28  . . . . . . . . . . . . .	DWord	 00000092 CONST	
+LIT29  . . . . . . . . . . . . .	DWord	 00000096 CONST	
+LIT2 . . . . . . . . . . . . . .	DWord	 00000004 CONST	
+LIT30  . . . . . . . . . . . . .	DWord	 0000009A CONST	
+LIT31  . . . . . . . . . . . . .	DWord	 0000009E CONST	
+LIT32  . . . . . . . . . . . . .	DWord	 000000A2 CONST	
+LIT33  . . . . . . . . . . . . .	DWord	 000000A6 CONST	
+LIT34  . . . . . . . . . . . . .	Byte	 000000AA CONST	
+LIT35  . . . . . . . . . . . . .	Byte	 000000BD CONST	
+LIT36  . . . . . . . . . . . . .	Byte	 000000C2 CONST	
+LIT37  . . . . . . . . . . . . .	Byte	 000000C8 CONST	
+LIT38  . . . . . . . . . . . . .	Byte	 000000CD CONST	
+LIT3 . . . . . . . . . . . . . .	DWord	 00000008 CONST	
+LIT4 . . . . . . . . . . . . . .	DWord	 0000000C CONST	
+LIT5 . . . . . . . . . . . . . .	DWord	 00000010 CONST	
+LIT6 . . . . . . . . . . . . . .	DWord	 00000014 CONST	
+LIT7 . . . . . . . . . . . . . .	Byte	 00000018 CONST	
+LIT8 . . . . . . . . . . . . . .	Byte	 0000001B CONST	
+LIT9 . . . . . . . . . . . . . .	DWord	 0000001F CONST	
+fact$acc . . . . . . . . . . . .	DWord	 00000004 _DATA	
+fact$b_res . . . . . . . . . . .	DWord	 00000038 _DATA	
+fact$col . . . . . . . . . . . .	DWord	 00000034 _DATA	
+fact$count . . . . . . . . . . .	DWord	 0000003C _DATA	
+fact$cyc . . . . . . . . . . . .	DWord	 00000030 _DATA	
+fact$f . . . . . . . . . . . . .	DWord	 00000050 _DATA	
+fact$nf  . . . . . . . . . . . .	DWord	 00000058 _DATA	
+fact$nt  . . . . . . . . . . . .	DWord	 00000054 _DATA	
+fact$resfact . . . . . . . . . .	DWord	 0000002C _DATA	
+fact$rr  . . . . . . . . . . . .	DWord	 00000060 _DATA	
+fact$r . . . . . . . . . . . . .	DWord	 0000005C _DATA	
+fact$t . . . . . . . . . . . . .	DWord	 0000004C _DATA	
+fact$x . . . . . . . . . . . . .	DWord	 00000040 _DATA	
+fact$y . . . . . . . . . . . . .	DWord	 00000044 _DATA	
+fact$z . . . . . . . . . . . . .	DWord	 00000048 _DATA	
+main$base  . . . . . . . . . . .	DWord	 00000014 _DATA	
+main$bl  . . . . . . . . . . . .	DWord	 00000024 _DATA	
+main$counter . . . . . . . . . .	DWord	 00000008 _DATA	
+main$power . . . . . . . . . . .	DWord	 00000018 _DATA	
+main$rSum  . . . . . . . . . . .	DWord	 00000028 _DATA	
+main$result  . . . . . . . . . .	DWord	 0000000C _DATA	
+main$st2 . . . . . . . . . . . .	DWord	 00000020 _DATA	
+main$st  . . . . . . . . . . . .	DWord	 0000001C _DATA	
+main$symbol  . . . . . . . . . .	DWord	 00000010 _DATA	
+sum$tmp  . . . . . . . . . . . .	DWord	 00000000 _DATA	
+
+	   0 Warnings
+	   0 Errors

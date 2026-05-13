@@ -1,0 +1,116 @@
+#include "Error.h"
+
+namespace Error {
+	ERROR errors[ERROR_MAX_ENTRY] = {
+		ERROR_ENTRY(0, "Недопустимый код ошибки"),
+		ERROR_ENTRY(1, "Системный сбой"),
+		ERROR_ENTRY_NODEF(2), ERROR_ENTRY_NODEF(3), ERROR_ENTRY_NODEF(4), ERROR_ENTRY_NODEF(5),
+		ERROR_ENTRY_NODEF(6), ERROR_ENTRY_NODEF(7), ERROR_ENTRY_NODEF(8), ERROR_ENTRY_NODEF(9),
+		ERROR_ENTRY_NODEF10(10), ERROR_ENTRY_NODEF10(20), ERROR_ENTRY_NODEF10(30), ERROR_ENTRY_NODEF10(40), ERROR_ENTRY_NODEF10(50),
+		ERROR_ENTRY_NODEF10(60), ERROR_ENTRY_NODEF10(70), ERROR_ENTRY_NODEF10(80), ERROR_ENTRY_NODEF10(90),
+		ERROR_ENTRY(100, "Параметр -in должен быть задан"),
+		ERROR_ENTRY_NODEF(101), ERROR_ENTRY_NODEF(102), ERROR_ENTRY_NODEF(103),
+		ERROR_ENTRY(104, "Превышена длина входного параметра"),
+		ERROR_ENTRY_NODEF(105), ERROR_ENTRY_NODEF(106), ERROR_ENTRY_NODEF(107),
+		ERROR_ENTRY_NODEF(108), ERROR_ENTRY_NODEF(109),
+		ERROR_ENTRY(110, "IN: Ошибка при открытии файла с исходным кодом"),
+		ERROR_ENTRY(111, "IN: Недопустимый символ в исходном файле"),
+		ERROR_ENTRY(112, "IN: Ошибка при создании файла протокола"),
+		ERROR_ENTRY(113, "IN: Превышена длина лексемы"),
+		ERROR_ENTRY(114, "IN: Превышена максимальная длина строкового литерала"),
+		ERROR_ENTRY(115, "IN: Неправильно объявленный символьный литерал"),
+		ERROR_ENTRY(116, "IN: Обнаружена незакрытый строковый литерал"),
+		ERROR_ENTRY(117, "IT: При добавлении инентификатора был превышен максимальный размер таблицы идентификаторов"),
+		ERROR_ENTRY(118, "IT: Идентификатор с таким же именем уже существует"),
+		ERROR_ENTRY_NODEF(119),
+		ERROR_ENTRY(120, "FST: Не удалось разобрать лексему из входного файла"),
+		ERROR_ENTRY(121, "FST: Объявлен идентификатор без типа"),
+		ERROR_ENTRY(122, "FST: Функция main объявлена более одного раза"),
+		ERROR_ENTRY(123, "FST: Не объявлена функция main"),
+		ERROR_ENTRY(124, "FST: Используется необъявленный идентификатор"),
+		ERROR_ENTRY(125, "FST: Имя идентификатора превышает допустимое значение"),
+		ERROR_ENTRY(126, "FST: Нельзя использовать какие-либо структуры между объявлением функции и её началом"),
+		ERROR_ENTRY(127, "FST: Идентификатор зарезервирован для функции стандартной библиотеки"),
+		ERROR_ENTRY(128, "FST: Идентификатор используется дважды"),
+		ERROR_ENTRY(129, "POLISHNOTATION: Не удалось выполнить преобразование в польскую запись"),
+		ERROR_ENTRY(130, "LT: Превышен размер таблицы лексем"),
+		ERROR_ENTRY(131, "IT: Превышен размер таблицы идентификаторов"),
+		ERROR_ENTRY(132, "FST: Идентификатор не может начинаться с цифры"),
+		ERROR_ENTRY(133, "FST: Идентификатор не может совпадать с ключевым словом"),
+		ERROR_ENTRY(134, "FST: Неверное значение целочисленного литерала"),
+		ERROR_ENTRY(135, "FST: Недопустимо использование пустых строковых или символьных литералов"),
+		ERROR_ENTRY(136, "FST: Идентификатор совпадает с ключевым словом"),
+		ERROR_ENTRY(137, "FST: Отсутствует ключевое слово"),
+		ERROR_ENTRY_NODEF(138),
+		ERROR_ENTRY_NODEF(139),
+		ERROR_ENTRY_NODEF10(140), ERROR_ENTRY_NODEF10(150),
+		ERROR_ENTRY_NODEF10(160), ERROR_ENTRY_NODEF10(170), ERROR_ENTRY_NODEF10(180), ERROR_ENTRY_NODEF10(190),
+		ERROR_ENTRY_NODEF100(200), ERROR_ENTRY_NODEF100(300), ERROR_ENTRY_NODEF100(400), ERROR_ENTRY_NODEF100(500),
+		ERROR_ENTRY(600, "MFST: Неверная структура программы"),
+		ERROR_ENTRY(601, "MFST: Ошибка в параметрах функции"),
+		ERROR_ENTRY(602, "MFST: Ошибка в возвращаемом значении функции"),
+		ERROR_ENTRY(603, "MFST: Ошибка в выражении"),
+		ERROR_ENTRY(604, "MFST: Ошибка в присвоении"),
+		ERROR_ENTRY(605, "MFST: Ошибка в параметрах, передаваемых в cout"),
+		ERROR_ENTRY(606, "MFST: Ошибка в параметрах вызываемой функции"),
+		ERROR_ENTRY(607, "MFST: Ошибка в параметрах условной конструкции"),
+		ERROR_ENTRY_NODEF(608),
+		ERROR_ENTRY_NODEF(609),
+		ERROR_ENTRY_NODEF(610),
+		ERROR_ENTRY(611, "MFST: Дисбаланс скобок (проверьте (), {} )"),
+		ERROR_ENTRY(612, "MFST: Ожидалась закрывающая скобка ')'"),
+		ERROR_ENTRY(613, "MFST: Ожидалась открывающая скобка '('"),
+		ERROR_ENTRY(614, "MFST: Ожидалась открывающая фигурная скобка '{'"),
+		ERROR_ENTRY(615, "MFST: Ожидалась закрывающая фигурная скобка '}'"),
+		ERROR_ENTRY_NODEF(616),
+		ERROR_ENTRY_NODEF(617),
+		ERROR_ENTRY_NODEF(618),
+		ERROR_ENTRY_NODEF(619),
+		ERROR_ENTRY_NODEF10(620),
+		ERROR_ENTRY_NODEF10(630),
+		ERROR_ENTRY_NODEF10(640),
+		ERROR_ENTRY_NODEF10(650),
+		ERROR_ENTRY_NODEF10(660),
+		ERROR_ENTRY_NODEF10(670),
+		ERROR_ENTRY_NODEF10(680),
+		ERROR_ENTRY_NODEF10(690),
+		ERROR_ENTRY(700, "SA: Тип возвращаемого значения функции не соответствует возвращаемому значению"),
+		ERROR_ENTRY(701, "SA: Не совпадает количество параметров функции при вызове и объявлении"),
+		ERROR_ENTRY(702, "SA: Не совпадают типы параметров функции при вызове и объявлении"),
+		ERROR_ENTRY(703, "SA: Типы данных, используемые в выражении, не совпадают"),
+		ERROR_ENTRY(704, "SA: Попытка вызвать операцию, неподдерживаемую типом данных"),
+		ERROR_ENTRY(705, "SA: Превышение максимального количества параметров функции"),
+		ERROR_ENTRY(706, "SA: Невозможно использовать идентификатор функции кроме как для её вызова"),
+		ERROR_ENTRY(707, "SA: Попытка присвоить идентификатору значение функции, которое отлично от типа данных идентификатора"),
+		ERROR_ENTRY_NODEF(708),
+		ERROR_ENTRY_NODEF(709),
+		ERROR_ENTRY_NODEF(710),
+		ERROR_ENTRY_NODEF(711),
+		ERROR_ENTRY(712, "SA: Целочисленный литерал может принимать значения от -2147482648 до 2147483647"),
+		ERROR_ENTRY(713, "SA: Функция стандартной библиотеки принимает неправильный параметр(параметры)"),
+		ERROR_ENTRY(714, "SA: cout обязательно должно принимать какое-либо значение"),
+		ERROR_ENTRY(715, "SA: Деление на ноль"),
+		ERROR_ENTRY(716, "SA: функция с типом возвращаемого значения не возвращает значение"),
+		ERROR_ENTRY_NODEF10(770),
+		ERROR_ENTRY_NODEF10(780),
+		ERROR_ENTRY_NODEF10(790),
+		ERROR_ENTRY_NODEF100(800),
+		ERROR_ENTRY_NODEF100(900),
+	};
+	ERROR geterror(int id)
+	{
+		if (id >= 0 && id < ERROR_MAX_ENTRY)
+			return errors[id];
+		return errors[0];
+	}
+	ERROR geterrorin(int id, int line = -1, int col = -1)
+	{
+		if (id > 0 && id < ERROR_MAX_ENTRY)
+		{
+			errors[id].inext.col = col;
+			errors[id].inext.line = line;
+			return errors[id];
+		}
+		else return errors[0];
+	}
+}

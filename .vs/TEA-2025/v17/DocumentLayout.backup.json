@@ -1,0 +1,727 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3s\\KPKPO\\TEA-2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\PolishN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\PolishN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Semantic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Semantic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\MFST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\CodeGeneration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\CodeGeneration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\IT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Out.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Out.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\TEA_2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\TEA_2025.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\CodeGeneration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\CodeGeneration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\FST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\FST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\GRB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\GRB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\In.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\In.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\MFST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Out.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Out.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Parm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Parm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\PolishN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\PolishN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Semantic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8F36FBC4-E378-4C29-A5CF-5FF1EFD85A97}|TEA-2025\\TEA-2025.vcxproj|solutionrelative:TEA-2025\\Semantic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6AA56-7490-47D2-BFD3-CF481746C2F0}|TEA-2025Lib\\TEA-2025Lib.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Lib\\TEA-2025Lib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEA6AA56-7490-47D2-BFD3-CF481746C2F0}|TEA-2025Lib\\TEA-2025Lib.vcxproj|solutionrelative:TEA-2025Lib\\TEA-2025Lib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C178DD7E-D95F-4DE8-B9FC-A285AE80D41F}|TEA-2025Asm\\TEA-2025Asm.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Asm\\TEA-2025.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C178DD7E-D95F-4DE8-B9FC-A285AE80D41F}|TEA-2025Asm\\TEA-2025Asm.vcxproj|solutionrelative:TEA-2025Asm\\TEA-2025.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\KPKPO\\TEA-2025\\Debug\\input.txt.asm||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Debug\\input.txt.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6AA56-7490-47D2-BFD3-CF481746C2F0}|TEA-2025Lib\\TEA-2025Lib.vcxproj|D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Lib\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BEA6AA56-7490-47D2-BFD3-CF481746C2F0}|TEA-2025Lib\\TEA-2025Lib.vcxproj|solutionrelative:TEA-2025Lib\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024Lib\\BVS-2024Lib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\PolishN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\GRB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\LT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\CodeGeneration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\LT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\Semantic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\IT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\BVS_2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\FST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024Asm\\BVS-2024.asm||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\3s\\b\\BVS-2024\\BVS-2024\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 295,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Log.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Log.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\Log.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Log.cpp",
+              "RelativeToolTip": "TEA-2025\\Log.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T16:04:33.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IT.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\IT.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\IT.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\IT.cpp",
+              "RelativeToolTip": "TEA-2025\\IT.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T20:33:44.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "In.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\In.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\In.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\In.cpp",
+              "RelativeToolTip": "TEA-2025\\In.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T20:04:10.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GRB.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\GRB.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\GRB.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\GRB.cpp",
+              "RelativeToolTip": "TEA-2025\\GRB.cpp",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAAAPEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T15:50:54.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FST.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\FST.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\FST.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\FST.cpp",
+              "RelativeToolTip": "TEA-2025\\FST.cpp",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAAAIkBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-17T01:49:31.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Error.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\Error.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Error.cpp",
+              "RelativeToolTip": "TEA-2025\\Error.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-17T01:49:13.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CodeGeneration.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\CodeGeneration.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\CodeGeneration.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\CodeGeneration.cpp",
+              "RelativeToolTip": "TEA-2025\\CodeGeneration.cpp",
+              "ViewState": "AgIAAF4CAAAAAAAAAAAAAGgCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T20:36:02.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MFST.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\MFST.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\MFST.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\MFST.cpp",
+              "RelativeToolTip": "TEA-2025\\MFST.cpp",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAANgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T20:18:16.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LT.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\LT.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\LT.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\LT.cpp",
+              "RelativeToolTip": "TEA-2025\\LT.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T16:11:35.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Out.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Out.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\Out.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Out.cpp",
+              "RelativeToolTip": "TEA-2025\\Out.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T16:12:01.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Semantic.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Semantic.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\Semantic.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Semantic.cpp",
+              "RelativeToolTip": "TEA-2025\\Semantic.cpp",
+              "ViewState": "AgIAAM4BAAAAAAAAAAAAAJsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T20:35:20.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolishN.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\PolishN.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\PolishN.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\PolishN.cpp",
+              "RelativeToolTip": "TEA-2025\\PolishN.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIBAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T23:27:56.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Parm.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Parm.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\Parm.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Parm.cpp",
+              "RelativeToolTip": "TEA-2025\\Parm.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T16:12:09.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LT.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\LT.h",
+              "RelativeDocumentMoniker": "TEA-2025\\LT.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\LT.h",
+              "RelativeToolTip": "TEA-2025\\LT.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T20:21:49.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TEA_2025.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\TEA_2025.cpp",
+              "RelativeDocumentMoniker": "TEA-2025\\TEA_2025.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\TEA_2025.cpp",
+              "RelativeToolTip": "TEA-2025\\TEA_2025.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAACkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T16:04:52.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CodeGeneration.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\CodeGeneration.h",
+              "RelativeDocumentMoniker": "TEA-2025\\CodeGeneration.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\CodeGeneration.h",
+              "RelativeToolTip": "TEA-2025\\CodeGeneration.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-15T23:23:24.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Error.h",
+              "RelativeDocumentMoniker": "TEA-2025\\Error.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Error.h",
+              "RelativeToolTip": "TEA-2025\\Error.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T20:04:15.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FST.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\FST.h",
+              "RelativeDocumentMoniker": "TEA-2025\\FST.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\FST.h",
+              "RelativeToolTip": "TEA-2025\\FST.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T20:16:53.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GRB.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\GRB.h",
+              "RelativeDocumentMoniker": "TEA-2025\\GRB.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\GRB.h",
+              "RelativeToolTip": "TEA-2025\\GRB.h",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-17T02:15:02.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IT.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\IT.h",
+              "RelativeDocumentMoniker": "TEA-2025\\IT.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\IT.h",
+              "RelativeToolTip": "TEA-2025\\IT.h",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAADwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T20:31:26.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Log.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Log.h",
+              "RelativeDocumentMoniker": "TEA-2025\\Log.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Log.h",
+              "RelativeToolTip": "TEA-2025\\Log.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-17T02:13:42.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Parm.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Parm.h",
+              "RelativeDocumentMoniker": "TEA-2025\\Parm.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Parm.h",
+              "RelativeToolTip": "TEA-2025\\Parm.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-16T02:14:39.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PolishN.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\PolishN.h",
+              "RelativeDocumentMoniker": "TEA-2025\\PolishN.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\PolishN.h",
+              "RelativeToolTip": "TEA-2025\\PolishN.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-16T02:14:28.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Semantic.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Semantic.h",
+              "RelativeDocumentMoniker": "TEA-2025\\Semantic.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Semantic.h",
+              "RelativeToolTip": "TEA-2025\\Semantic.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T22:11:47.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TEA-2025Lib.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Lib\\TEA-2025Lib.cpp",
+              "RelativeDocumentMoniker": "TEA-2025Lib\\TEA-2025Lib.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Lib\\TEA-2025Lib.cpp",
+              "RelativeToolTip": "TEA-2025Lib\\TEA-2025Lib.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T20:37:13.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Out.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Out.h",
+              "RelativeDocumentMoniker": "TEA-2025\\Out.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\Out.h",
+              "RelativeToolTip": "TEA-2025\\Out.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-16T02:14:42.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "In.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\In.h",
+              "RelativeDocumentMoniker": "TEA-2025\\In.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\In.h",
+              "RelativeToolTip": "TEA-2025\\In.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T20:04:17.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MFST.h",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\MFST.h",
+              "RelativeDocumentMoniker": "TEA-2025\\MFST.h",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025\\MFST.h",
+              "RelativeToolTip": "TEA-2025\\MFST.h",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T20:18:25.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "input.txt.asm",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\Debug\\input.txt.asm",
+              "RelativeDocumentMoniker": "Debug\\input.txt.asm",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\Debug\\input.txt.asm",
+              "RelativeToolTip": "Debug\\input.txt.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-12T13:43:43.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TEA-2025.asm",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Asm\\TEA-2025.asm",
+              "RelativeDocumentMoniker": "TEA-2025Asm\\TEA-2025.asm",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Asm\\TEA-2025.asm",
+              "RelativeToolTip": "TEA-2025Asm\\TEA-2025.asm",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-14T20:38:34.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Lib\\pch.cpp",
+              "RelativeDocumentMoniker": "TEA-2025Lib\\pch.cpp",
+              "ToolTip": "D:\\3s\\KPKPO\\TEA-2025\\TEA-2025Lib\\pch.cpp",
+              "RelativeToolTip": "TEA-2025Lib\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-15T23:34:50.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Log.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\Log.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\Log.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\Log.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\Log.cpp",
+              "ViewState": "AgIAAHcAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T18:26:30.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LT.h",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\LT.h",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\LT.h",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\LT.h",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\LT.h",
+              "ViewState": "AgIAABcAAAAAAAAAAABRwC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-12T19:52:05.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\Error.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\Error.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\Error.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\Error.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T16:06:06.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CodeGeneration.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\CodeGeneration.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\CodeGeneration.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\CodeGeneration.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\CodeGeneration.cpp",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAuwOABAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T13:14:26.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GRB.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\GRB.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\GRB.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\GRB.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\GRB.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T15:41:08.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LT.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\LT.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\LT.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\LT.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\LT.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T12:50:53.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PolishN.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\PolishN.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\PolishN.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\PolishN.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\PolishN.cpp",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAowBQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T20:28:37.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BVS-2024Lib.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024Lib\\BVS-2024Lib.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024Lib\\BVS-2024Lib.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024Lib\\BVS-2024Lib.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024Lib\\BVS-2024Lib.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T14:02:17.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Semantic.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\Semantic.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\Semantic.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\Semantic.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\Semantic.cpp",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAYwKkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T21:00:46.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IT.h",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\IT.h",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\IT.h",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\IT.h",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\IT.h",
+              "ViewState": "AgIAABEAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-12T21:13:02.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BVS_2024.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\BVS_2024.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\BVS_2024.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\BVS_2024.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\BVS_2024.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T13:53:01.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FST.cpp",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\FST.cpp",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\FST.cpp",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\FST.cpp",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\FST.cpp",
+              "ViewState": "AgIAAD0CAAAAAAAAAAAowFkCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-12T12:58:50.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BVS-2024.asm",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024Asm\\BVS-2024.asm",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024Asm\\BVS-2024.asm",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024Asm\\BVS-2024.asm",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024Asm\\BVS-2024.asm",
+              "ViewState": "AgIAAKMBAAAAAAAAAABRwKcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-12T08:39:20.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "input.txt",
+              "DocumentMoniker": "D:\\3s\\b\\BVS-2024\\BVS-2024\\input.txt",
+              "RelativeDocumentMoniker": "..\\..\\b\\BVS-2024\\BVS-2024\\input.txt",
+              "ToolTip": "D:\\3s\\b\\BVS-2024\\BVS-2024\\input.txt",
+              "RelativeToolTip": "..\\..\\b\\BVS-2024\\BVS-2024\\input.txt",
+              "ViewState": "AgIAAEcAAAAAAAAAAABRwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-12T08:38:16.874Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

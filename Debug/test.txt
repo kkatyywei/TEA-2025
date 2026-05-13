@@ -1,0 +1,168 @@
+announce integer func sum(integer x, integer y)
+{
+	announce integer tmp = x + y;
+	return tmp;
+}
+
+announce integer func fact(integer n)
+{
+	announce integer acc;
+	acc = 1;
+
+	cycle (n)
+	{
+	     acc = acc * 2;
+	}
+	return acc;
+}
+
+announce boolean func bool(integer w1, integer w2)
+{
+	announce boolean res;
+	res = w2 > w1;
+	return res;
+}
+announce integer func test_fi(integer w1, integer w2)
+{
+	announce integer res = w1 + power_of(w2, 3);
+
+	return res;
+}
+main {
+	announce integer counter;
+	announce integer result;
+	announce char symbol = 'j     ';
+	announce integer base;
+	announce integer power = 5;
+	announce string st = "hi";
+	announce string st2 = "hi1";
+	announce integer acc;
+	announce boolean bl = true;
+	announce integer rSum;
+
+
+	cout("<<< TEA-2025 OPERATIONS DEMO >>>");
+	cout(" ");
+
+	counter = 3;
+	base = 2;
+
+	cout("1. Arithmetic Operations:");
+	result = base * base;
+	cout("Square (2 * 2): ");
+	cout(to_str(result));
+
+	result = power_of(base, power);
+	cout("Power Lib (2^5): ");
+	cout(to_str(result));
+
+	cout(" ");
+	cout("2. Data Types:");
+	cout("Char output: ");
+	cout(symbol);
+	cout("String output: ");
+	cout(st);
+
+	cout(" ");
+	cout("3. Function Calls:");
+	cout("Sum function (10 + 5): ");
+	cout(sum(10, 5));
+
+	cout("Cycle function (2^3): ");
+	announce integer resfact = fact(3);
+	cout(resfact);
+
+	cout(" ");
+	cout("4. Loops and Logic:");
+	announce integer cyc = -2;
+	announce integer col = 6;
+	announce boolean b_res;
+
+	cycle (col)
+	{
+    	     cyc = cyc + 1;
+	}
+
+	cout("Cycle result (start -2, add 1 six times): ");
+	cout(cyc);
+
+	b_res = cyc != col;
+	cout("Comparison result (cyc != col): ");
+	cout(b_res);
+
+	cout(" ");
+	cout("5. Unary Operations:");
+	announce integer count = 2;
+	count = count++;
+	count = count--;
+	cout("Postfix increment/decrement (2++ then --): ");
+	cout(count);
+
+	announce integer x;
+	announce integer y = 10;
+	announce integer z;
+
+	x = -5;          
+	z = -y;          
+	z = -(x + y);   
+
+	cout("Unary minus assignment (x = -5): ");
+	cout(x);         
+	cout("Complex unary minus (z = -(x+y)): ");
+	cout(z);  
+
+	cout(" ");
+	cout("6. Boolean Logic:");
+	announce boolean t = true;
+	announce boolean f = false;
+	announce boolean nt = !t;
+	announce boolean nf = !f;
+
+	cout("Original True: ");
+	cout(t);
+	cout("Inverted True (!t): ");
+	cout(nt);
+	cout("Original False: ");
+	cout(f);
+	cout("Inverted False (!f): ");
+	cout(nf);
+	
+	announce boolean r;
+	r = x > z;
+	cout("Comparison expression (x > z): ");
+	cout(r);
+
+	announce boolean rr;
+	rr = !r;
+	cout("Inverted comparison result: ");
+	cout(rr);
+
+	announce boolean v;
+	v = bool(3, 4);
+	cout("Boolean function result (4 > 3): ");
+	cout(v);
+
+	cout(" ");
+	cout("7. Modulo Operation:");
+	announce integer div = 6;
+	div = div + 4 /2;
+	cout("6 % 4 result: ");
+	cout(div);
+
+	announce integer test =  5;
+	cout(test);
+	test = ~test;
+	cout(test);
+	test = test + power_of(2, 3);
+	cout(test);
+	announce integer an_test = ~10;
+	cout(an_test);
+	announce integer test_one = 10;
+	announce integer test_two = 2;
+	announce integer test_three = 8;
+	announce integer fi_test = test_fi(test_one, test_two);
+	cout(fi_test);
+	announce integer over_test = power_of(2, 33);
+	cout(over_test);
+}
+

@@ -1,0 +1,83 @@
+﻿Сборка начата 17.12.2025 5:33:53.
+Уровень детализации журнала: Normal.     1>Проект "D:\3s\KPKPO\TEA-2025\TEA-2025\TEA-2025.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\TEA-2025.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\TEA-2025.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt CodeGeneration.cpp FST.cpp GRB.cpp IT.cpp In.cpp Log.cpp MFST.cpp Parm.cpp PolishN.cpp Semantic.cpp TEA_2025.cpp
+         CodeGeneration.cpp
+         FST.cpp
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(64,26): warning C4267: инициализация: преобразование из "size_t" в "unsigned short"; возможна потеря данных
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(138,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(205,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(206,22): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(290,25): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(416,26): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(436,28): warning C4101: e: неиспользованная локальная переменная
+         GRB.cpp
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\GRB.cpp(12,9): warning C4005: NS: изменение макроопределения
+             D:\3s\KPKPO\TEA-2025\TEA-2025\GRB.h(4,9):
+             см. предыдущее определение "NS"
+         
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\GRB.cpp(13,9): warning C4005: TS: изменение макроопределения
+             D:\3s\KPKPO\TEA-2025\TEA-2025\GRB.h(5,9):
+             см. предыдущее определение "TS"
+         
+         IT.cpp
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\IT.cpp(18,22): warning C4018: <: несоответствие типов со знаком и без знака
+         In.cpp
+         Log.cpp
+         MFST.cpp
+         Parm.cpp
+         PolishN.cpp
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\PolishN.cpp(48,27): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\PolishN.cpp(51,28): warning C4018: <: несоответствие типов со знаком и без знака
+         Semantic.cpp
+     1>D:\3s\KPKPO\TEA-2025\TEA-2025\Semantic.cpp(3,27): warning C4616: предупреждение #pragma: предупреждение с номером "1041" не является действительным предупреждением компилятора
+         TEA_2025.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025.exe" /INCREMENTAL /ILK:"Debug\TEA-2025.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025.lib" /MACHINE:X86 Debug\CodeGeneration.obj
+         Debug\Error.obj
+         Debug\FST.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Out.obj
+         Debug\Parm.obj
+         Debug\PolishN.obj
+         Debug\Semantic.obj
+         Debug\TEA_2025.obj
+         TEA-2025.vcxproj -> D:\3s\KPKPO\TEA-2025\Debug\TEA-2025.exe
+       FinalizeBuildStatus:
+         Файл "Debug\TEA-2025.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\TEA-2025.tlog\TEA-2025.lastbuildstate".
+     1>Сборка проекта "D:\3s\KPKPO\TEA-2025\TEA-2025\TEA-2025.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\3s\KPKPO\TEA-2025\TEA-2025\TEA-2025.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(64,26): warning C4267: инициализация: преобразование из "size_t" в "unsigned short"; возможна потеря данных
+         D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(138,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(205,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(206,22): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(290,25): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(416,26): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\FST.cpp(436,28): warning C4101: e: неиспользованная локальная переменная
+         D:\3s\KPKPO\TEA-2025\TEA-2025\GRB.cpp(12,9): warning C4005: NS: изменение макроопределения
+         D:\3s\KPKPO\TEA-2025\TEA-2025\GRB.cpp(13,9): warning C4005: TS: изменение макроопределения
+         D:\3s\KPKPO\TEA-2025\TEA-2025\IT.cpp(18,22): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\PolishN.cpp(48,27): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\PolishN.cpp(51,28): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\3s\KPKPO\TEA-2025\TEA-2025\Semantic.cpp(3,27): warning C4616: предупреждение #pragma: предупреждение с номером "1041" не является действительным предупреждением компилятора
+
+    Предупреждений: 13
+    Ошибок: 0
+
+Прошло времени 00:00:07.20

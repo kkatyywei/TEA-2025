@@ -1,0 +1,25 @@
+﻿Сборка начата 17.12.2025 5:13:22.
+Уровень детализации журнала: Normal.     1>Проект "D:\3s\KPKPO\TEA-2025\TEA-2025Lib\TEA-2025Lib.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\TEA-2025Lib.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\TEA-2025Lib.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Yu"pch.h" /Fp"Debug\TEA-2025Lib.pch" /Fo"Debug\\" /Fd"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025Lib.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt "TEA-2025Lib.cpp"
+         TEA-2025Lib.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\Lib.exe /OUT:"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025Lib.lib" /NOLOGO /MACHINE:X86 Debug\pch.obj
+         "Debug\TEA-2025Lib.obj"
+         TEA-2025Lib.vcxproj -> D:\3s\KPKPO\TEA-2025\Debug\TEA-2025Lib.lib
+       FinalizeBuildStatus:
+         Файл "Debug\TEA-2025Lib.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\TEA-2025Lib.tlog\TEA-2025Lib.lastbuildstate".
+     1>Сборка проекта "D:\3s\KPKPO\TEA-2025\TEA-2025Lib\TEA-2025Lib.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.34

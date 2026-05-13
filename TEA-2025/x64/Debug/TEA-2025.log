@@ -1,0 +1,40 @@
+﻿  BVS_2024.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  CodeGeneration.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\CodeGeneration.cpp(111,16): warning C4101: func: неиспользованная локальная переменная
+  Error.cpp
+  FST.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\FST.cpp(63,26): warning C4267: инициализация: преобразование из "size_t" в "unsigned short"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\FST.cpp(417,52): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\FST.cpp(461,23): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  GRB.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\GRB.cpp(12,1): warning C4005: NS: изменение макроопределения
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\GRB.h(4,1): message : см. предыдущее определение "NS"
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\GRB.cpp(13,1): warning C4005: TS: изменение макроопределения
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\GRB.h(5,1): message : см. предыдущее определение "TS"
+  In.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\In.cpp(21,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  IT.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Log.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  LT.cpp
+  MFST.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\MFST.cpp(65,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\MFST.cpp(276,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\MFST.cpp(293,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Out.cpp
+  Parm.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  PolishN.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\PolishN.cpp(76,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\PolishN.cpp(162,33): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Semantic.cpp
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\IT.h(52,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\BVS-2024\Semantic.cpp(3,27): warning C4616: предупреждение #pragma: предупреждение с номером "1041" не является действительным предупреждением компилятора
+  Создание кода...
+  BVS-2024.vcxproj -> C:\Users\viy.viy.leta\OneDrive\Рабочий стол\BVS-2024\BVS-2024\x64\Debug\BVS-2024.exe

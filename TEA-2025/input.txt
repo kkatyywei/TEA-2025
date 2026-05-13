@@ -1,0 +1,115 @@
+announce integer func sum(integer x, integer y)
+{
+    announce integer tmp;
+    tmp = x + y;
+    return tmp;
+}
+
+announce integer func fact(integer n)
+{
+    announce integer acc;
+    acc = 1;
+
+    cycle (n)
+    {
+        acc = acc * 2;
+        n = n - 1;
+    }
+
+    return acc;
+}
+
+main {
+    announce integer counter;
+    announce integer result;
+    announce char symbol = 'A';
+    announce integer base = 2;
+    announce integer power = 5;
+    announce string st = "hi";
+    announce string st2 = "hi1";
+
+    announce boolean bl = true;
+    announce integer rSum;
+
+    counter = 3;
+    base = 2;
+    
+    cout("TEA-2025 Demo");
+    cout(" ");
+   
+    result = base * base;
+    cout("Square: ");
+    cout(to_str(result));
+    
+    result = power_of(base, power);
+    cout("Power: ");
+    cout(to_str(result));
+    
+    cout("Symbol: ");
+    cout(symbol);
+    
+    cout("Sum result: ");
+    rSum = sum(10,5);
+
+    cout("fact result");
+    announce integer resfact = fact(3);
+    cout(resfact);
+
+    announce integer cyc = -2;
+    announce integer col = 6;
+    announce boolean b_res;
+    
+    cycle (col)
+    {
+        acc = acc * 2+8/6-2;
+        col = col - 1;
+    }
+    
+    b_res = cyc != col;
+    
+    cout(b_res);
+    
+    announce integer count = 2;
+    count++;
+    count--;
+
+    announce integer x;
+    announce integer y = 10;
+    announce integer z;
+
+    x = -5;
+    z = -y;
+    z = -(x + y);
+    
+    cout(x);
+    cout(z);
+
+    announce integer a = 5;
+    announce integer b = ~a;
+    cout("Inversion (Bitwise NOT):");
+    cout("a = ");
+    cout(to_str(a));
+    cout("~a = ");
+    cout(to_str(b));
+
+    announce boolean t = true;
+    announce boolean f = false;
+    announce boolean nt = !t;
+    announce boolean nf = !f;
+    
+    cout("Boolean inversion:");
+    cout("t = ");
+    cout(t);
+    cout("!t = ");
+    cout(nt);
+    cout("f = ");
+    cout(f);
+    cout("!f = ");
+    cout(nf);
+
+    announce boolean r;
+    r = x > z;
+    announce boolean rr;
+    rr = !r;
+    cout(rr);
+}

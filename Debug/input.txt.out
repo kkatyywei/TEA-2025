@@ -1,0 +1,576 @@
+.586P
+.model flat, stdcall
+includelib msvcrtd.lib
+includelib vcruntimed.lib
+includelib ucrtd.lib
+includelib legacy_stdio_definitions.lib
+includelib kernel32.lib
+includelib ../Debug/TEA-2025Lib.lib
+ExitProcess PROTO : DWORD
+
+SetConsoleCP PROTO : DWORD
+
+SetConsoleOutputCP PROTO : DWORD
+
+power_of PROTO : DWORD, : DWORD 
+
+to_str PROTO : DWORD 
+
+prints PROTO : DWORD 
+
+printi PROTO : DWORD 
+
+printb PROTO : DWORD 
+
+.stack 4096
+
+.const
+DIVBYZERO DB "Runtime Error: Division by zero", 0
+OVERFLOW_ERROR DB "Runtime Error: Integer overflow", 0
+LIT1 DWORD 1 ; int
+LIT2 DWORD 2 ; int
+LIT3 DWORD 106 ; char
+LIT4 DWORD 5 ; int
+LIT5 DB "hi", 0 ; string
+LIT6 DB "hi1", 0 ; string
+LIT7 DWORD 1 ; boolean
+LIT8 DB "<<< TEA-2025 OPERATIONS DEMO >>>", 0 ; string
+LIT9 DB " ", 0 ; string
+LIT10 DWORD 3 ; int
+LIT11 DWORD 2 ; int
+LIT12 DB "1. Arithmetic Operations:", 0 ; string
+LIT13 DB "Square (2 * 2): ", 0 ; string
+LIT14 DB "Power Lib (2^5): ", 0 ; string
+LIT15 DB " ", 0 ; string
+LIT16 DB "2. Data Types:", 0 ; string
+LIT17 DB "Char output: ", 0 ; string
+LIT18 DB "String output: ", 0 ; string
+LIT19 DB " ", 0 ; string
+LIT20 DB "3. Function Calls:", 0 ; string
+LIT21 DB "Sum function (10 + 5): ", 0 ; string
+LIT22 DWORD 10 ; int
+LIT23 DWORD 5 ; int
+LIT24 DB "Cycle function (2^3): ", 0 ; string
+LIT25 DWORD 3 ; int
+LIT26 DB " ", 0 ; string
+LIT27 DB "4. Loops and Logic:", 0 ; string
+LIT28 DWORD 2 ; int
+LIT29 DWORD 6 ; int
+LIT30 DWORD 1 ; int
+LIT31 DB "Cycle result (start -2, add 1 six times): ", 0 ; string
+LIT32 DB "Comparison result (cyc != col): ", 0 ; string
+LIT33 DB " ", 0 ; string
+LIT34 DB "5. Unary Operations:", 0 ; string
+LIT35 DWORD 2 ; int
+LIT36 DB "Postfix increment/decrement (2++ then --): ", 0 ; string
+LIT37 DWORD 10 ; int
+LIT38 DWORD 5 ; int
+LIT39 DB "Unary minus assignment (x = -5): ", 0 ; string
+LIT40 DB "Complex unary minus (z = -(x+y)): ", 0 ; string
+LIT41 DB " ", 0 ; string
+LIT42 DB "6. Boolean Logic:", 0 ; string
+LIT43 DWORD 1 ; boolean
+LIT44 DWORD 0 ; boolean
+LIT45 DB "Original True: ", 0 ; string
+LIT46 DB "Inverted True (!t): ", 0 ; string
+LIT47 DB "Original False: ", 0 ; string
+LIT48 DB "Inverted False (!f): ", 0 ; string
+LIT49 DB "Comparison expression (x > z): ", 0 ; string
+LIT50 DB "Inverted comparison result: ", 0 ; string
+LIT51 DWORD 3 ; int
+LIT52 DWORD 4 ; int
+LIT53 DB "Boolean function result (4 > 3): ", 0 ; string
+LIT54 DB " ", 0 ; string
+LIT55 DB "7. Modulo Operation:", 0 ; string
+LIT56 DWORD 6 ; int
+LIT57 DWORD 4 ; int
+LIT58 DB "6 % 4 result: ", 0 ; string
+
+.data
+sum$tmp DWORD 0
+fact$acc DWORD 0
+bool$res DWORD 0
+main$counter DWORD 0
+main$result DWORD 0
+main$symbol DWORD 0
+main$base DWORD 0
+main$power DWORD 0
+main$st DWORD 0
+main$st2 DWORD 0
+main$acc DWORD 0
+main$bl DWORD 0
+main$rSum DWORD 0
+bool$resfact DWORD 0
+bool$cyc DWORD 0
+bool$col DWORD 0
+bool$b_res DWORD 0
+bool$count DWORD 0
+bool$x DWORD 0
+bool$y DWORD 0
+bool$z DWORD 0
+bool$t DWORD 0
+bool$f DWORD 0
+bool$nt DWORD 0
+bool$nf DWORD 0
+bool$r DWORD 0
+bool$rr DWORD 0
+bool$v DWORD 0
+bool$div DWORD 0
+
+.code
+
+Fsum PROC uses ebx ecx edi esi, sum$x : DWORD, sum$y : DWORD
+
+; Init sum$tmp
+mov eax, sum$x
+add eax, sum$y
+
+; Overflow check for addition
+jo overflow_error_1
+jmp overflow_check_1
+overflow_error_1:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_1:
+mov sum$tmp, eax
+
+; Return
+mov eax, sum$tmp
+ret
+ret
+Fsum ENDP
+
+Ffact PROC uses ebx ecx edi esi, fact$n : DWORD
+
+; Assign: fact$acc = LIT1
+mov eax, LIT1
+mov fact$acc, eax
+
+; --- Cycle ---
+mov eax, fact$n
+mov ecx, eax
+cmp ecx, 0
+jle cycle_label_1_end
+cycle_label_1:
+push ecx
+mov eax, fact$acc
+imul eax, LIT2
+
+; Overflow check for multiplication
+jo overflow_error_1
+jmp overflow_check_1
+overflow_error_1:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_1:
+
+; Assign: fact$acc = eax
+mov fact$acc, eax
+pop ecx
+dec ecx
+cmp ecx, 0
+jg cycle_label_1
+cycle_label_1_end:
+
+; Return
+mov eax, fact$acc
+ret
+ret
+Ffact ENDP
+
+Fbool PROC uses ebx ecx edi esi, bool$w1 : DWORD, bool$w2 : DWORD
+mov eax, bool$w2
+cmp eax, bool$w1
+mov ecx, 0
+setg cl
+mov eax, ecx
+
+; Assign: bool$res = eax
+mov bool$res, eax
+
+; Return
+mov eax, bool$res
+ret
+ret
+Fbool ENDP
+
+F_DivisionByZero PROC
+push offset DIVBYZERO
+call prints
+push -1
+call ExitProcess
+F_DivisionByZero ENDP
+
+
+F_IntegerOverflow PROC
+push ebp
+mov ebp, esp
+
+; Выводим сообщение об ошибке
+push offset OVERFLOW_ERROR
+call prints
+
+; Завершаем программу с кодом ошибки
+push -1
+call ExitProcess
+mov esp, ebp
+pop ebp
+ret 4
+F_IntegerOverflow ENDP
+
+main PROC
+Invoke SetConsoleCP, 1251
+Invoke SetConsoleOutputCP, 1251
+
+; Init main$symbol
+mov eax, LIT3
+mov main$symbol, eax
+
+; Init main$power
+mov eax, LIT4
+mov main$power, eax
+
+; Init main$st
+mov eax, offset LIT5
+mov main$st, eax
+
+; Init main$st2
+mov eax, offset LIT6
+mov main$st2, eax
+
+; Init main$bl
+mov eax, LIT7
+mov main$bl, eax
+push offset LIT8
+call prints
+push offset LIT9
+call prints
+
+; Assign: main$counter = LIT10
+mov eax, LIT10
+mov main$counter, eax
+
+; Assign: main$base = LIT11
+mov eax, LIT11
+mov main$base, eax
+push offset LIT12
+call prints
+mov eax, main$base
+imul eax, main$base
+
+; Overflow check for multiplication
+jo overflow_error_1
+jmp overflow_check_1
+overflow_error_1:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_1:
+
+; Assign: main$result = eax
+mov main$result, eax
+push offset LIT13
+call prints
+push main$result
+call to_str
+push eax
+call prints
+push main$power
+push main$base
+call power_of
+
+; Assign: main$result = eax
+mov main$result, eax
+push offset LIT14
+call prints
+push main$result
+call to_str
+push eax
+call prints
+push offset LIT15
+call prints
+push offset LIT16
+call prints
+push offset LIT17
+call prints
+push offset main$symbol
+call prints
+push offset LIT18
+call prints
+push main$st
+call prints
+push offset LIT19
+call prints
+push offset LIT20
+call prints
+push offset LIT21
+call prints
+push LIT23
+push LIT22
+call Fsum
+push eax
+call printi
+push offset LIT24
+call prints
+
+; Init bool$resfact
+push LIT25
+call Ffact
+mov bool$resfact, eax
+mov eax, bool$resfact
+push eax
+call printi
+push offset LIT26
+call prints
+push offset LIT27
+call prints
+
+; Init bool$cyc
+mov eax, LIT28
+neg eax
+
+; Overflow check for negation
+jo overflow_error_2
+jmp overflow_check_2
+overflow_error_2:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_2:
+mov bool$cyc, eax
+
+; Init bool$col
+mov eax, LIT29
+mov bool$col, eax
+
+; --- Cycle ---
+mov eax, bool$col
+mov ecx, eax
+cmp ecx, 0
+jle cycle_label_1_end
+cycle_label_1:
+push ecx
+mov eax, bool$cyc
+add eax, LIT30
+
+; Overflow check for addition
+jo overflow_error_3
+jmp overflow_check_3
+overflow_error_3:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_3:
+
+; Assign: bool$cyc = eax
+mov bool$cyc, eax
+pop ecx
+dec ecx
+cmp ecx, 0
+jg cycle_label_1
+cycle_label_1_end:
+push offset LIT31
+call prints
+mov eax, bool$cyc
+push eax
+call printi
+mov eax, bool$cyc
+cmp eax, bool$col
+mov ecx, 0
+setne cl
+mov eax, ecx
+
+; Assign: bool$b_res = eax
+mov bool$b_res, eax
+push offset LIT32
+call prints
+push bool$b_res
+call printb
+push offset LIT33
+call prints
+push offset LIT34
+call prints
+
+; Init bool$count
+mov eax, LIT35
+mov bool$count, eax
+
+; Postfix
+mov eax, bool$count
+push eax
+inc bool$count
+pop eax
+
+; Assign: bool$count = eax
+mov bool$count, eax
+
+; Postfix
+mov eax, bool$count
+push eax
+dec bool$count
+pop eax
+
+; Assign: bool$count = eax
+mov bool$count, eax
+push offset LIT36
+call prints
+mov eax, bool$count
+push eax
+call printi
+
+; Init bool$y
+mov eax, LIT37
+mov bool$y, eax
+mov eax, LIT38
+not eax
+
+; Assign: bool$x = eax
+mov bool$x, eax
+mov eax, bool$y
+neg eax
+
+; Overflow check for negation
+jo overflow_error_4
+jmp overflow_check_4
+overflow_error_4:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_4:
+
+; Assign: bool$z = eax
+mov bool$z, eax
+mov eax, bool$x
+add eax, bool$y
+
+; Overflow check for addition
+jo overflow_error_5
+jmp overflow_check_5
+overflow_error_5:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_5:
+neg eax
+
+; Overflow check for negation
+jo overflow_error_6
+jmp overflow_check_6
+overflow_error_6:
+push 131  ; ERROR_THROW(131) - Integer overflow
+call F_IntegerOverflow
+overflow_check_6:
+
+; Assign: bool$z = eax
+mov bool$z, eax
+push offset LIT39
+call prints
+mov eax, bool$x
+push eax
+call printi
+push offset LIT40
+call prints
+mov eax, bool$z
+push eax
+call printi
+push offset LIT41
+call prints
+push offset LIT42
+call prints
+
+; Init bool$t
+mov eax, LIT43
+mov bool$t, eax
+
+; Init bool$f
+mov eax, LIT44
+mov bool$f, eax
+
+; Init bool$nt
+mov eax, bool$t
+cmp eax, 0
+sete al
+movzx eax, al
+mov bool$nt, eax
+
+; Init bool$nf
+mov eax, bool$f
+cmp eax, 0
+sete al
+movzx eax, al
+mov bool$nf, eax
+push offset LIT45
+call prints
+push bool$t
+call printb
+push offset LIT46
+call prints
+push bool$nt
+call printb
+push offset LIT47
+call prints
+push bool$f
+call printb
+push offset LIT48
+call prints
+push bool$nf
+call printb
+mov eax, bool$x
+cmp eax, bool$z
+mov ecx, 0
+setg cl
+mov eax, ecx
+
+; Assign: bool$r = eax
+mov bool$r, eax
+push offset LIT49
+call prints
+push bool$r
+call printb
+mov eax, bool$r
+cmp eax, 0
+sete al
+movzx eax, al
+
+; Assign: bool$rr = eax
+mov bool$rr, eax
+push offset LIT50
+call prints
+push bool$rr
+call printb
+push LIT52
+push LIT51
+call Fbool
+
+; Assign: bool$v = eax
+mov bool$v, eax
+push offset LIT53
+call prints
+push bool$v
+call printb
+push offset LIT54
+call prints
+push offset LIT55
+call prints
+
+; Init bool$div
+mov eax, LIT56
+mov bool$div, eax
+
+; Safe Division Check
+mov ebx, LIT57
+cmp ebx, 0
+jne div_ok_1
+call F_DivisionByZero
+div_ok_1:
+mov eax, bool$div
+cdq
+idiv ebx
+mov eax, edx
+
+; Assign: bool$div = eax
+mov bool$div, eax
+push offset LIT58
+call prints
+mov eax, bool$div
+push eax
+call printi
+push -1
+call ExitProcess
+main ENDP
+end main

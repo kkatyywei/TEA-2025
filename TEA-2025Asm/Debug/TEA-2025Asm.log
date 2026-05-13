@@ -1,0 +1,24 @@
+﻿Сборка начата 17.12.2025 11:35:53.
+Уровень детализации журнала: Normal.     1>Проект "D:\3s\KPKPO\TEA-2025\TEA-2025Asm\TEA-2025Asm.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\TEA-2025Asm.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\TEA-2025Asm.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling TEA-2025.asm...
+         cmd.exe /C "C:\Users\Kate\AppData\Local\Temp\tmpd5d260650d6e460487308e3c3dc79518.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\TEA-2025.obj" /W3 /errorReport:prompt  /Ta"TEA-2025.asm"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025Asm.exe" /INCREMENTAL /ILK:"Debug\TEA-2025Asm.ilk" /NOLOGO /LIBPATH:"D:\3s\KPKPO\TEA-2025\Debug" kernel32.lib "D:\3s\KPKPO\TEA-2025\Debug\\TEA-2025Lib.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025Asm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"main" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3s\KPKPO\TEA-2025\Debug\TEA-2025Asm.lib" /MACHINE:X86 "Debug\TEA-2025.obj"
+         TEA-2025Asm.vcxproj -> D:\3s\KPKPO\TEA-2025\Debug\TEA-2025Asm.exe
+       FinalizeBuildStatus:
+         Файл "Debug\TEA-2025Asm.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\TEA-2025Asm.tlog\TEA-2025Asm.lastbuildstate".
+     1>Сборка проекта "D:\3s\KPKPO\TEA-2025\TEA-2025Asm\TEA-2025Asm.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:02.03
